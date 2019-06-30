@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e540088f-f17d-490e-9346-c8733506f7b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/rainite-ad-service/ad-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rainite-ad-service/ad-common/src/main/java/com/rainite/ad/advice/CommonResponseDateAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rainite-ad-service/ad-common/src/main/java/com/rainite/ad/annotation/IgnoreResponseAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rainite-ad-service/ad-common/src/main/java/com/rainite/ad/vo/CommonResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rainite-ad-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rainite-ad-service/ad-common/src/main/java/com/rainite/ad/advice/GlobalExceptionAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rainite-ad-service/ad-common/src/main/java/com/rainite/ad/exception/AdException.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,18 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ad-gateway/src/main/java/com/rainite/ad/ZuulGatewayApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ad-gateway/src/main/java/com/rainite/ad/filter/PreRequestFilter.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -106,14 +87,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rainite-ad-service/ad-common/src/main/java/com/rainite/ad/advice/CommonResponseDateAdvice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+            <state relative-caret-position="284">
+              <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1260#1284#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rainite-ad-service/ad-common/src/main/java/com/rainite/ad/exception/AdException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+              <folding>
+                <element signature="e#154#155#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rainite-ad-service/ad-common/src/main/java/com/rainite/ad/advice/GlobalExceptionAdvice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="57" lean-forward="true" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -127,15 +132,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ad-gateway/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -180,6 +176,8 @@
         <option value="$PROJECT_DIR$/rainite-ad-service/ad-common/src/main/java/com/rainite/ad/vo/CommonResponse.java" />
         <option value="$PROJECT_DIR$/rainite-ad-service/ad-common/src/main/java/com/rainite/ad/annotation/IgnoreResponseAdvice.java" />
         <option value="$PROJECT_DIR$/rainite-ad-service/ad-common/src/main/java/com/rainite/ad/advice/CommonResponseDateAdvice.java" />
+        <option value="$PROJECT_DIR$/rainite-ad-service/ad-common/src/main/java/com/rainite/ad/exception/AdException.java" />
+        <option value="$PROJECT_DIR$/rainite-ad-service/ad-common/src/main/java/com/rainite/ad/advice/GlobalExceptionAdvice.java" />
       </list>
     </option>
   </component>
@@ -276,18 +274,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ad" type="462c0819:PsiDirectoryNode" />
-              <item name="annotation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rainite-ad-springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ad_project" type="462c0819:PsiDirectoryNode" />
-              <item name="rainite-ad-service" type="462c0819:PsiDirectoryNode" />
-              <item name="ad-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ad" type="462c0819:PsiDirectoryNode" />
-              <item name="vo" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -363,12 +350,12 @@
       <updated>1561597628381</updated>
       <workItem from="1561597632634" duration="424000" />
       <workItem from="1561598070946" duration="2346000" />
-      <workItem from="1561601492966" duration="7358000" />
+      <workItem from="1561601492966" duration="7673000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10128000" />
+    <option name="totallyTimeSpent" value="10443000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="808" extended-state="0" />
@@ -578,11 +565,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rainite-ad-service/ad-common/src/main/java/com/rainite/ad/advice/CommonResponseDateAdvice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+        <state relative-caret-position="284">
+          <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1260#1284#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rainite-ad-service/ad-common/src/main/java/com/rainite/ad/exception/AdException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+          <folding>
+            <element signature="e#154#155#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rainite-ad-service/ad-common/src/main/java/com/rainite/ad/advice/GlobalExceptionAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="57" lean-forward="true" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
