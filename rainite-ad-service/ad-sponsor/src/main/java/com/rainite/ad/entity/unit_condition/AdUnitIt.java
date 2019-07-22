@@ -11,7 +11,7 @@ import javax.persistence.*;
 @AllArgsConstructor
 @Entity
 @Table(name = "ad_unit_keyword")
-public class AdUnitKeyword {
+public class AdUnitIt {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -23,11 +23,11 @@ public class AdUnitKeyword {
     private Long unitId;
 
     @Basic
-    @Column(name = "keyword", nullable = false)
-    private String keyword;
+    @Column(name = "it_tag", nullable = false)
+    private String itTag;
 
-    public AdUnitKeyword(Long unitId, String keyword){
+    public AdUnitIt(Long unitId, String itTag){
         this.unitId = unitId;
-        this.keyword = keyword;
+        this.itTag = itTag;
     }
 }
