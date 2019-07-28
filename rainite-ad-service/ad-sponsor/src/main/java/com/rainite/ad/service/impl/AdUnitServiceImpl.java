@@ -6,7 +6,7 @@ import com.rainite.ad.dao.AdUnitRepository;
 import com.rainite.ad.entity.AdPlan;
 import com.rainite.ad.entity.AdUnit;
 import com.rainite.ad.exception.AdException;
-import com.rainite.ad.service.IADUnitService;
+import com.rainite.ad.service.IAdUnitService;
 import com.rainite.ad.vo.AdUnitRequest;
 import com.rainite.ad.vo.AdUnitResponse;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,7 +16,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.Optional;
 
 @Service
-public class AdUnitServiceImpl implements IADUnitService {
+public class AdUnitServiceImpl implements IAdUnitService {
 
     private final AdPlanRepository planRepository;
     private final AdUnitRepository unitRepository;
